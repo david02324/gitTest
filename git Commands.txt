@@ -1,0 +1,20 @@
+git init
+처음 git 폴더 지정시 사용
+
+git remote add origin “URL”
+폴더와 연동할 레포지토리 등록
+
+git pull origin master
+레포지토리 등록되어있는 모든 파일 가져오기
+
+git status
+로컬 폴더와 깃허브 비교
+
+git add .
+로컬 폴더에 있는 모든 추가된 파일 추가
+
+git commit -m “msg”
+메시지와 함께 커밋
+
+git push origin +master
+master에 Push 하기
